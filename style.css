@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* TOP BAR */
+.top-bar {
+    background: #0a2a4a;
+    color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #0d3c66;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.navbar li {
+    color: white;
+    margin: 15px 20px;
+}
+
+/* HERO */
+.hero {
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url(hero.jpg) center/cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.hero-text h1 {
+    font-size: 50px;
+}
+
+/* LOGIN */
+.login-box {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    color: black;
+}
+.login-box input, .login-box button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.login-box button {
+    background: orange;
+    color: white;
+    border: none;
+}
+
+/* STRATEGY */
+.strategy {
+    display: flex;
+    padding: 60px;
+}
+.strategy-right img {
+    width: 400px;
+}
+.steps {
+    display: flex;
+}
+.step {
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.blue {background:#1976d2;}
+.purple {background:#7b1fa2;}
+.teal {background:#00897b;}
+
+/* SUPPORT */
+.support {
+    background: #0b2d52;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+.support-boxes {
+    display: flex;
+    justify-content: center;
+}
+.support-box {
+    margin: 20px;
+    padding: 30px;
+    background: #123e6b;
+}
+
+/* CONTACT */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+/* FORM */
+.form-section {
+    background: #0b2d52;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+.form-section form {
+    max-width: 500px;
+    margin: auto;
+}
+.form-section input,
+.form-section textarea,
+.form-section select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.submit {
+    background: orange;
+    color: white;
+}
+.reset {
+    background: gray;
+    color: white;
+}
+
+/* CLIENTS */
+.clients {
+    padding: 50px;
+    text-align: center;
+}
+.logos span {
+    margin: 20px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    background: #0a2a4a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
